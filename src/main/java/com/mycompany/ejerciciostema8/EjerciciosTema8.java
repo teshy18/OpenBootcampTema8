@@ -12,6 +12,16 @@ package com.mycompany.ejerciciostema8;
 public class EjerciciosTema8 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+      Persona persona = new Persona();
+
+      persona.setEdad(30);
+      persona.setNombre("Sebastian");
+      persona.setTelefono(536377);
+      
+      System.out.println("Edad: "+ persona.getEdad());
+      System.out.println("Nombre: " + persona.getNombre());
+      System.out.println("Telefono: "+ persona.getTelefono());
+      
+      
     }
 }
